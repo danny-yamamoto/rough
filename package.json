@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "npm run build && pagefind --site dist && npm run preview",
-    "build": "astro check && pagefind --site dist && astro build",
+    "build": "astro check && astro build && pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro"
   },
